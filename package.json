@@ -1,0 +1,22 @@
+{
+  "name": "herdr-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "herdr-app 的 review 卡插件：herdr-review 命令 + Review 面板",
+  "type": "module",
+  "bin": {
+    "herdr-review": "cli/src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"cli/test/*.test.ts\"",
+    "typecheck": "tsc -p .",
+    "setup": "node cli/src/cli.ts setup"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

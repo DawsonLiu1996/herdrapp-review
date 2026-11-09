@@ -1,0 +1,7 @@
+node_modules/
+.shots/
+.devin/
+
+# herdr-app 为编辑器生成的类型声明和配置
+mod/*/gpui-kit.d.ts
+mod/*/jsconfig.json
